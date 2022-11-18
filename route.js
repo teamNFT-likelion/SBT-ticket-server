@@ -7,5 +7,7 @@ router.get("/test", async (req, res) => {
 
 const oauthController = require("./controllers/oauth");
 router.get("/naver/callback", oauthController.getByNaver);
+router.get("/kakao/callback", oauthController.getByKakao);
+
 
 module.exports = router;

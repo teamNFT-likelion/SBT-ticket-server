@@ -75,12 +75,21 @@ module.exports = {
     const state = req.query.state;
     const clientId = process.env.KAKAO_CLIENT_ID;
     const redirectUrl =
+<<<<<<< HEAD
       state === 'local'
         ? 'http://localhost:5000/kakao/callback'
         : 'http://ttot.netlify.app/payment';
 
     const getTokenUrl = `https://kauth.kakao.com/oauth/token?grant_type=authorization_code&client_id=${clientId}&redirect_uri=${redirectUrl}&code=${code}`;
     const getOauthDataUrl = 'https://kapi.kakao.com/v2/user/me';
+=======
+      state === "kakao"
+        ? "http://localhost:3000/kakao/callback"
+        : "https://ttot.netlify.app/payment";
+
+    const getTokenUrl = `https://kauth.kakao.com/oauth/token?grant_type=authorization_code&client_id=${clientId}&redirect_uri=http://localhost:5000/kakao/callback&code=${code}`;
+    const getOauthDataUrl = "https://kapi.kakao.com/v2/user/me";
+>>>>>>> ae9a32b (fix : redirectUrl 수정)
 
     // 인가 코드 > 토큰 받기
     const {
@@ -116,6 +125,10 @@ module.exports = {
       expires: new Date(Date.now() + 1000 * 60),
     });
 
+<<<<<<< HEAD
     res.status(302).redirect('http://localhost:3000/payment');
+=======
+    res.status(302).redirect(redirectUrl);
+>>>>>>> ae9a32b (fix : redirectUrl 수정)
   },
 };

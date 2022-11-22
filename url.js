@@ -12,14 +12,12 @@ const getNaverUnlinkUrl = (token) => {
 
 const kakaoClientId = process.env.KAKAO_CLIENT_ID;
 const kakaoOauthDataUrl = 'https://kapi.kakao.com/v2/user/me';
-// const headers = http.request.headers;
-// // console.log(headers);
 
-const getKakaoTokenUrl = (code, state) => {
-  console.log("url.js에서" + state);
-  const kakaoRedirecUrl = state == 'dev'
-  ? 'https://ttot.netflify.app/payment'
-  : 'http://localhost:3000/payment';
+const getKakaoTokenUrl = (code, origin) => {
+  const kakaoRedirecUrl = origin.includes('localhost')
+  ? 'http://localhost:3000/payment'
+  : 'https://ttot.netlify.app/payment';
+  console.log(kakaoRedirecUrl);
   return `https://kauth.kakao.com/oauth/token?grant_type=authorization_code&client_id=${kakaoClientId}&redirect_uri=${kakaoRedirecUrl}&code=${code}`;
 };
 module.exports = {

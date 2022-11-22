@@ -1,4 +1,4 @@
-const http = require('http');
+// const http = require('http');
 
 const naverClientId = process.env.NAVER_CLIENT_ID;
 const naverClientSecret = process.env.NAVER_CLIENT_SECRET;

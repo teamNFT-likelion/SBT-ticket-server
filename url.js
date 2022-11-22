@@ -1,3 +1,5 @@
+const http = require('http');
+
 const naverClientId = process.env.NAVER_CLIENT_ID;
 const naverClientSecret = process.env.NAVER_CLIENT_SECRET;
 const naverOauthDataUrl = 'https://openapi.naver.com/v1/nid/me';
@@ -10,8 +12,15 @@ const getNaverUnlinkUrl = (token) => {
 
 const kakaoClientId = process.env.KAKAO_CLIENT_ID;
 const kakaoOauthDataUrl = 'https://kapi.kakao.com/v2/user/me';
-const getKakaoTokenUrl = (code) => {
-  return `https://kauth.kakao.com/oauth/token?grant_type=authorization_code&client_id=${kakaoClientId}&redirect_uri=http://localhost:3000/payment&code=${code}`;
+// const headers = http.request.headers;
+// // console.log(headers);
+
+const getKakaoTokenUrl = (code, state) => {
+  console.log("url.js에서" + state);
+  const kakaoRedirecUrl = state == 'dev'
+  ? 'https://ttot.netflify.app/payment'
+  : 'http://localhost:3000/payment';
+  return `https://kauth.kakao.com/oauth/token?grant_type=authorization_code&client_id=${kakaoClientId}&redirect_uri=${kakaoRedirecUrl}&code=${code}`;
 };
 module.exports = {
   getNaverTokenUrl,

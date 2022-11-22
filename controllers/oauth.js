@@ -38,7 +38,7 @@ module.exports = {
   getByKakao: async (req, res) => {
     const code = req.query.code; // 인가코드
     const state = req.query.state;
-    console.log(state);
+    console.log("oauth.js에서" + state);
 
     const getKakaoUnlinkUrl = `https://kapi.kakao.com/v1/user/unlink`;
 
@@ -46,7 +46,7 @@ module.exports = {
       // 인가코드 > 엑세스토큰
       const {
         data: { access_token },
-      } = await axios.post(getKakaoTokenUrl(code));
+      } = await axios.post(getKakaoTokenUrl(code, state));
 
       // 엑세스토큰 > 데이터
       const {

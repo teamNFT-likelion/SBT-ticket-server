@@ -13,7 +13,7 @@ app.use(express.json()); // req body parsing
 app.use(express.urlencoded({ extended: false })); // url query parsing
 app.use(
   cors({
-    origin: ['https://13.114.237.105:80', 'http://localhost:3000'],
+    origin: ['https://ttot.netlify.app', 'http://localhost:3000'],
     credentials: true,
     methods: ['GET', 'POST', 'OPTIONS', 'DELETE'],
   }),

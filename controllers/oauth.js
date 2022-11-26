@@ -56,7 +56,7 @@ module.exports = {
         },
       });
 
-      // 토큰 만료 (이거 없어도되나? 일단 만료시킴)
+      // 토큰 만료
       await axios.get(getKakaoUnlinkUrl, {
       headers: {
         Authorization: `Bearer ${access_token}`,

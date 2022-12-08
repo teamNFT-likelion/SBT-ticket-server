@@ -3,14 +3,14 @@ const cors = require('cors');
 const express = require('express');
 const morgan = require('morgan');
 const cookieParser = require('cookie-parser');
-const PORT = process.env || 5000;
+const PORT = process.env.PORT || 5000;
 const app = express();
 
 dotenv.config();
 app.use(cookieParser());
-app.use(morgan('dev')); 
+app.use(morgan('dev'));
 app.use(express.json());
-app.use(express.urlencoded({ extended: false })); 
+app.use(express.urlencoded({ extended: false }));
 app.use(
   cors({
     origin: ['https://ttot.netlify.app', 'http://localhost:3000'],

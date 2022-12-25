@@ -13,4 +13,8 @@ const userController = require('./controllers/user');
 router.post('/user/signup', userController.postSignup);
 router.get('/user', userController.getInfo);
 
+const tossPayController = require('./controllers/toss');
+router.get('/payment/success', tossPayController.success);
+router.get('/payment/cancel', tossPayController.cancel);
+
 module.exports = router;

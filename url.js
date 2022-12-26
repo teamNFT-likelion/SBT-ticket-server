@@ -13,8 +13,8 @@ const kakaoOauthDataUrl = 'https://kapi.kakao.com/v2/user/me';
 
 const getKakaoTokenUrl = (code, origin) => {
   const kakaoRedirecUrl = origin.includes('localhost')
-    ? 'http://localhost:3000/payment'
-    : 'https://ttot.netlify.app/payment';
+    ? 'http://localhost:3000/getInfo'
+    : 'https://ttot.netlify.app/getInfo';
 
   return `https://kauth.kakao.com/oauth/token?grant_type=authorization_code&client_id=${kakaoClientId}&redirect_uri=${kakaoRedirecUrl}&code=${code}`;
 };

@@ -17,4 +17,12 @@ const tossPayController = require('./controllers/toss');
 router.get('/payment/success', tossPayController.success);
 router.get('/payment/cancel', tossPayController.cancel);
 
+const hostController = require('./controllers/host');
+router.post('/addHost', hostController.addHost);
+router.get('/hosts', hostController.getAllHost);
+router.post('/updateHost/:id', hostController.updateHost);
+router.get('/deleteHost/:id', hostController.deleteHost);
+router.post('/pushSeat', hostController.pushSeat);
+router.post('/popSeat', hostController.popSeat);
+
 module.exports = router;

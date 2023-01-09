@@ -1,0 +1,961 @@
+[
+  {
+    "id": "0x7e5Bb4EAB634B5F140b16b817fa09D5124fe82ad",
+    "topic": "공연",
+    "posterImgUrl": "https://image.toast.com/aaaaab/ticketlink/TKL_6/펭미팅_대표이미지_405X500.jpg",
+    "detailInfoImg": "http://image.toast.com/aaaaab/ticketlink/TKL_2/MD_1128.jpg",
+    "title": "2022 펭수 연말 펭미팅",
+    "place": "경희대학교 평화의전당",
+    "cast": "펭수",
+    "viewAgeName": "8세 이상",
+    "startDate": 1674194400000,
+    "endDate": 1674280800000,
+    "runningTime": 90,
+    "dateInfo": {
+      "2023년 01월 20일": [
+        {
+          "startTime": 1674194400000,
+          "seatCount": 81,
+          "seats": {
+            "sections": [
+              {
+                "event_id": 2,
+                "name": "Bronze",
+                "price": 30000,
+                "subsections": [
+                  {
+                    "id": 18,
+                    "section_id": 6,
+                    "name": "B1",
+                    "seats_by_rows": {
+                      "1": [
+                        {
+                          "name": "Bronze-B1-1-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B1-1-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B1-1-3",
+                          "status": "free"
+                        }
+                      ],
+                      "2": [
+                        {
+                          "name": "Bronze-B1-2-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B1-2-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B1-2-3",
+                          "status": "free"
+                        }
+                      ],
+                      "3": [
+                        {
+                          "name": "Bronze-B1-3-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B1-3-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B1-3-3",
+                          "status": "free"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "id": 19,
+                    "section_id": 6,
+                    "name": "B2",
+                    "seats_by_rows": {
+                      "1": [
+                        {
+                          "name": "Bronze-B2-1-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B2-1-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B2-1-3",
+                          "status": "free"
+                        }
+                      ],
+                      "2": [
+                        {
+                          "name": "Bronze-B2-2-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B2-2-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B2-2-3",
+                          "status": "free"
+                        }
+                      ],
+                      "3": [
+                        {
+                          "name": "Bronze-B2-3-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B2-3-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B2-3-3",
+                          "status": "free"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "id": 20,
+                    "section_id": 6,
+                    "name": "B3",
+                    "seats_by_rows": {
+                      "1": [
+                        {
+                          "name": "Bronze-B3-1-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B3-1-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B3-1-3",
+                          "status": "free"
+                        }
+                      ],
+                      "2": [
+                        {
+                          "name": "Bronze-B3-2-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B3-2-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B3-2-3",
+                          "status": "free"
+                        }
+                      ],
+                      "3": [
+                        {
+                          "name": "Bronze-B3-3-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B3-3-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B3-3-3",
+                          "status": "free"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "event_id": 2,
+                "name": "Silver",
+                "price": 50000,
+                "subsections": [
+                  {
+                    "id": 22,
+                    "section_id": 7,
+                    "name": "S1",
+                    "seats_by_rows": {
+                      "1": [
+                        {
+                          "name": "Silver-S1-1-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S1-1-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S1-1-3",
+                          "status": "free"
+                        }
+                      ],
+                      "2": [
+                        {
+                          "name": "Silver-S1-2-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S1-2-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S1-2-3",
+                          "status": "free"
+                        }
+                      ],
+                      "3": [
+                        {
+                          "name": "Silver-S1-3-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S1-3-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S1-3-3",
+                          "status": "free"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "id": 23,
+                    "section_id": 7,
+                    "name": "S2",
+                    "seats_by_rows": {
+                      "1": [
+                        {
+                          "name": "Silver-S2-1-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S2-1-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S2-1-3",
+                          "status": "free"
+                        }
+                      ],
+                      "2": [
+                        {
+                          "name": "Silver-S2-2-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S2-2-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S2-2-3",
+                          "status": "free"
+                        }
+                      ],
+                      "3": [
+                        {
+                          "name": "Silver-S2-3-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S2-3-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S2-3-3",
+                          "status": "free"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "id": 24,
+                    "section_id": 7,
+                    "name": "S3",
+                    "seats_by_rows": {
+                      "1": [
+                        {
+                          "name": "Silver-S3-1-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S3-1-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S3-1-3",
+                          "status": "free"
+                        }
+                      ],
+                      "2": [
+                        {
+                          "name": "Silver-S3-2-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S3-2-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S3-2-3",
+                          "status": "free"
+                        }
+                      ],
+                      "3": [
+                        {
+                          "name": "Silver-S3-3-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S3-3-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S3-3-3",
+                          "status": "free"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "event_id": 2,
+                "name": "Gold",
+                "price": 70000,
+                "subsections": [
+                  {
+                    "id": 26,
+                    "section_id": 8,
+                    "name": "G1",
+                    "seats_by_rows": {
+                      "1": [
+                        {
+                          "name": "Gold-G1-1-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G1-1-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G1-1-3",
+                          "status": "free"
+                        }
+                      ],
+                      "2": [
+                        {
+                          "name": "Gold-G1-2-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G1-2-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G1-2-3",
+                          "status": "free"
+                        }
+                      ],
+                      "3": [
+                        {
+                          "name": "Gold-G1-3-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G1-3-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G1-3-3",
+                          "status": "free"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "id": 27,
+                    "section_id": 8,
+                    "name": "G2",
+                    "seats_by_rows": {
+                      "1": [
+                        {
+                          "name": "Gold-G2-1-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G2-1-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G2-1-3",
+                          "status": "free"
+                        }
+                      ],
+                      "2": [
+                        {
+                          "name": "Gold-G2-2-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G2-2-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G2-2-3",
+                          "status": "free"
+                        }
+                      ],
+                      "3": [
+                        {
+                          "name": "Gold-G2-3-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G2-3-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G2-3-3",
+                          "status": "free"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "id": 28,
+                    "section_id": 8,
+                    "name": "G3",
+                    "seats_by_rows": {
+                      "1": [
+                        {
+                          "name": "Gold-G3-1-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G3-1-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G3-1-3",
+                          "status": "free"
+                        }
+                      ],
+                      "2": [
+                        {
+                          "name": "Gold-G3-2-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G3-2-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G3-2-3",
+                          "status": "free"
+                        }
+                      ],
+                      "3": [
+                        {
+                          "name": "Gold-G3-3-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G3-3-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G3-3-3",
+                          "status": "free"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "2023년 01월 21일": [
+        {
+          "startTime": 1674280800000,
+          "seatCount": 81,
+          "seats": {
+            "sections": [
+              {
+                "event_id": 2,
+                "name": "Bronze",
+                "price": 30000,
+                "subsections": [
+                  {
+                    "id": 18,
+                    "section_id": 6,
+                    "name": "B1",
+                    "seats_by_rows": {
+                      "1": [
+                        {
+                          "name": "Bronze-B1-1-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B1-1-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B1-1-3",
+                          "status": "free"
+                        }
+                      ],
+                      "2": [
+                        {
+                          "name": "Bronze-B1-2-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B1-2-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B1-2-3",
+                          "status": "free"
+                        }
+                      ],
+                      "3": [
+                        {
+                          "name": "Bronze-B1-3-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B1-3-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B1-3-3",
+                          "status": "free"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "id": 19,
+                    "section_id": 6,
+                    "name": "B2",
+                    "seats_by_rows": {
+                      "1": [
+                        {
+                          "name": "Bronze-B2-1-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B2-1-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B2-1-3",
+                          "status": "free"
+                        }
+                      ],
+                      "2": [
+                        {
+                          "name": "Bronze-B2-2-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B2-2-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B2-2-3",
+                          "status": "free"
+                        }
+                      ],
+                      "3": [
+                        {
+                          "name": "Bronze-B2-3-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B2-3-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B2-3-3",
+                          "status": "free"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "id": 20,
+                    "section_id": 6,
+                    "name": "B3",
+                    "seats_by_rows": {
+                      "1": [
+                        {
+                          "name": "Bronze-B3-1-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B3-1-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B3-1-3",
+                          "status": "free"
+                        }
+                      ],
+                      "2": [
+                        {
+                          "name": "Bronze-B3-2-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B3-2-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B3-2-3",
+                          "status": "free"
+                        }
+                      ],
+                      "3": [
+                        {
+                          "name": "Bronze-B3-3-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B3-3-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Bronze-B3-3-3",
+                          "status": "free"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "event_id": 2,
+                "name": "Silver",
+                "price": 50000,
+                "subsections": [
+                  {
+                    "id": 22,
+                    "section_id": 7,
+                    "name": "S1",
+                    "seats_by_rows": {
+                      "1": [
+                        {
+                          "name": "Silver-S1-1-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S1-1-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S1-1-3",
+                          "status": "free"
+                        }
+                      ],
+                      "2": [
+                        {
+                          "name": "Silver-S1-2-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S1-2-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S1-2-3",
+                          "status": "free"
+                        }
+                      ],
+                      "3": [
+                        {
+                          "name": "Silver-S1-3-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S1-3-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S1-3-3",
+                          "status": "free"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "id": 23,
+                    "section_id": 7,
+                    "name": "S2",
+                    "seats_by_rows": {
+                      "1": [
+                        {
+                          "name": "Silver-S2-1-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S2-1-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S2-1-3",
+                          "status": "free"
+                        }
+                      ],
+                      "2": [
+                        {
+                          "name": "Silver-S2-2-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S2-2-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S2-2-3",
+                          "status": "free"
+                        }
+                      ],
+                      "3": [
+                        {
+                          "name": "Silver-S2-3-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S2-3-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S2-3-3",
+                          "status": "free"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "id": 24,
+                    "section_id": 7,
+                    "name": "S3",
+                    "seats_by_rows": {
+                      "1": [
+                        {
+                          "name": "Silver-S3-1-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S3-1-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S3-1-3",
+                          "status": "free"
+                        }
+                      ],
+                      "2": [
+                        {
+                          "name": "Silver-S3-2-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S3-2-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S3-2-3",
+                          "status": "free"
+                        }
+                      ],
+                      "3": [
+                        {
+                          "name": "Silver-S3-3-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S3-3-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Silver-S3-3-3",
+                          "status": "free"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "event_id": 2,
+                "name": "Gold",
+                "price": 70000,
+                "subsections": [
+                  {
+                    "id": 26,
+                    "section_id": 8,
+                    "name": "G1",
+                    "seats_by_rows": {
+                      "1": [
+                        {
+                          "name": "Gold-G1-1-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G1-1-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G1-1-3",
+                          "status": "free"
+                        }
+                      ],
+                      "2": [
+                        {
+                          "name": "Gold-G1-2-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G1-2-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G1-2-3",
+                          "status": "free"
+                        }
+                      ],
+                      "3": [
+                        {
+                          "name": "Gold-G1-3-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G1-3-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G1-3-3",
+                          "status": "free"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "id": 27,
+                    "section_id": 8,
+                    "name": "G2",
+                    "seats_by_rows": {
+                      "1": [
+                        {
+                          "name": "Gold-G2-1-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G2-1-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G2-1-3",
+                          "status": "free"
+                        }
+                      ],
+                      "2": [
+                        {
+                          "name": "Gold-G2-2-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G2-2-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G2-2-3",
+                          "status": "free"
+                        }
+                      ],
+                      "3": [
+                        {
+                          "name": "Gold-G2-3-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G2-3-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G2-3-3",
+                          "status": "free"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "id": 28,
+                    "section_id": 8,
+                    "name": "G3",
+                    "seats_by_rows": {
+                      "1": [
+                        {
+                          "name": "Gold-G3-1-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G3-1-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G3-1-3",
+                          "status": "free"
+                        }
+                      ],
+                      "2": [
+                        {
+                          "name": "Gold-G3-2-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G3-2-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G3-2-3",
+                          "status": "free"
+                        }
+                      ],
+                      "3": [
+                        {
+                          "name": "Gold-G3-3-1",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G3-3-2",
+                          "status": "free"
+                        },
+                        {
+                          "name": "Gold-G3-3-3",
+                          "status": "free"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]
